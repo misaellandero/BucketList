@@ -38,9 +38,9 @@ struct MapView: UIViewRepresentable {
         mapView.delegate = context.coordinator
         
         let annotation = MKPointAnnotation()
-        annotation.title = "Londres"
-        annotation.subtitle = "capital de Inglaterra"
-        annotation.coordinate = CLLocationCoordinate2D(latitude: 51.5, longitude: 0.13)
+        annotation.title = "CMDX"
+        annotation.subtitle = "Capital de México"
+        annotation.coordinate = CLLocationCoordinate2D(latitude: 19, longitude: -99)
         mapView.addAnnotation(annotation)
         return mapView
     }
