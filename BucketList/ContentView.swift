@@ -7,41 +7,13 @@
 //
 
 import SwiftUI
-
-struct LoadingView: View {
-    var body: some View {
-        Text("Cargando...")
-    }
-}
-
-struct SuccessView: View {
-    var body: some View {
-        Text("Exitoso...")
-    }
-}
-
-struct FailedView: View {
-    var body: some View {
-        Text("Fallado...")
-    }
-}
+import MapKit
 
 struct ContentView: View {
-    enum LoadingState {
-        case loading, success, failed
-    }
-    var loadingState = LoadingState.loading
-    
+  
     var body: some View {
-        Group {
-            if loadingState == .loading {
-                LoadingView()
-            } else if loadingState == .success {
-                SuccessView()
-            } else if loadingState == .failed {
-                FailedView()
-            }
-        }
+        MapView()
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
