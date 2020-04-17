@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F00CD37244A411D0074C168 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00CD36244A411D0074C168 /* MKPointAnnotation-Codable.swift */; };
 		7FA732FF2436EAEB00693D45 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA732FE2436EAEB00693D45 /* MapView.swift */; };
 		7FC0CE282440C27D00DDF1F3 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0CE272440C27D00DDF1F3 /* MKPointAnnotation-ObservableObject.swift */; };
 		7FC0CE2A2440C37D00DDF1F3 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0CE292440C37D00DDF1F3 /* EditView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F00CD36244A411D0074C168 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 		7FA732FE2436EAEB00693D45 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7FC0CE272440C27D00DDF1F3 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
 		7FC0CE292440C37D00DDF1F3 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				7FC0CE272440C27D00DDF1F3 /* MKPointAnnotation-ObservableObject.swift */,
 				7FC0CE292440C37D00DDF1F3 /* EditView.swift */,
 				7FA732FE2436EAEB00693D45 /* MapView.swift */,
+				7F00CD36244A411D0074C168 /* MKPointAnnotation-Codable.swift */,
 				7FE285A6243586D300A66309 /* Assets.xcassets */,
 				7FE285AB243586D300A66309 /* LaunchScreen.storyboard */,
 				7FE285AE243586D300A66309 /* Info.plist */,
@@ -164,6 +167,7 @@
 				7FE285A3243586C500A66309 /* SceneDelegate.swift in Sources */,
 				7FC0CE2C2440C79900DDF1F3 /* Result.swift in Sources */,
 				7FC0CE282440C27D00DDF1F3 /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				7F00CD37244A411D0074C168 /* MKPointAnnotation-Codable.swift in Sources */,
 				7FE285A5243586C500A66309 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
